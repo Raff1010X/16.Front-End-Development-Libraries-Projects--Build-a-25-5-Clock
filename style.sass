@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap')
+
+*
+  margin: .5rem
+  padding: 0
+  overflow: hidden
+  box-sizing: border-box
+  color: black
+  font-size: 1.25rem
+  font-family: 'Roboto', sans-serif
+  text-align: center
+  
+html
+  font-size: Min(3vh, 3vw)
+  
+body
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 100vh
+  width: 100vw
+  background-color: black
+  margin: 0
+
+#root
+  max-width: 400px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  padding: 1rem
+  border-radius: .5rem
+  background-color: white
+
+  
+#app
+  width: 100%
+  
+h1
+  font-size: 2rem
+  
+button
+  width: 2rem
+  height: 2rem
+  border: none
+  border-radius: .5rem
+  background-color: #000000
+  font-size: 1.5rem
+  color: white
+
+#start_stop, #reset
+  width: 6rem
+  height: 2rem
+  font-size: 1rem
+  
+#timer-label, #time-left
+  font-size: 2rem
+  
+.lenght-container, #time-controls
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+
+#session-length, #break-length
+    width: 1.5rem
